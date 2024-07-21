@@ -1,10 +1,11 @@
 import React from 'react'
+import Main from '../components/Main'
 
 const Home = () => {
   return (
-    <div className='bg-red-950'>
-      Hello
-    </div>
+    < >
+      <Main />
+    </>
   )
 }
 
