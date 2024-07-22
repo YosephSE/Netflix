@@ -1,4 +1,4 @@
-const key = 'ac9fe5181dc96ba5bf098177b7bdd996'
+const key = import.meta.env.REACT_APP_API_KEY
 
 const requests = {
     requestPopular: `https://api.themoviedb.org/3/movie/popular?api_key=${key}&language=en-US&page=1`,
